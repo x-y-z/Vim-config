@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/birdmanyan/.oh-my-zsh/themes'
+let g:netrw_dirhist_2='/Users/birdmanyan/Playground/armulator/src'
+let g:netrw_dirhist_3='/Users/birdmanyan/.vim_runtime'
+let g:netrw_dirhist_4='/Users/birdmanyan/.oh-my-zsh'
+let g:netrw_dirhist_5='/Users/birdmanyan/Playground/compiler_group/coq-files/sf-our'
+let g:netrw_dirhist_6='/Users/birdmanyan/.oh-my-zsh/plugins/macports'
+let g:netrw_dirhist_7='/Users/birdmanyan/.oh-my-zsh/plugins/osx'
+let g:netrw_dirhist_8='/Users/birdmanyan/Playground/2012spring/cis505/project/Distributed-Chat/src/dchat.dSYM'
