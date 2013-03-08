@@ -183,7 +183,7 @@ if has("gui_running")
   set nonu
 else
   set background=dark
-  colorscheme ir_black
+  colorscheme peaksea
   set nonu
 endif
 
