@@ -88,6 +88,8 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Set line number
+set number
 " Sets how many lines of history VIM has to remember
 set history=700
 
@@ -172,7 +174,7 @@ elseif MySys() == "windows"
   set gfn=Bitstream\ Vera\ Sans\ Mono:h10
 elseif MySys() == "linux"
   set gfn=Monospace\ 10
-  set shell=/bin/bash
+  set shell=/usr/bin/zsh
 endif
 
 if has("gui_running")
@@ -183,7 +185,7 @@ if has("gui_running")
   set nonu
 else
   set background=dark
-  colorscheme ir_black
+  colorscheme peaksea
   set nonu
 endif
 
@@ -655,7 +657,7 @@ map <leader>bb :cd ..<cr>
 " ctags, cscope
 "
 "===
-map <F10> :call Do_CsTag()<CR>
+map <F12> :call Do_CsTag()<CR>
 nmap <C-@>s :cs find s <C-R>=expand("<cword>")<CR><CR>:copen<CR>
 nmap <C-@>g :cs find g <C-R>=expand("<cword>")<CR><CR>
 nmap <C-@>c :cs find c <C-R>=expand("<cword>")<CR><CR>:copen<CR>
